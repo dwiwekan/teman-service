@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+    //nama
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:height="45dp"
+        android:background="@drawable/kotak"
+        android:paddingLeft="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    //email
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:height="45dp"
+            android:background="@drawable/kotak"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        //no telp
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="No Telp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/notelp"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:height="45dp"
+            android:background="@drawable/kotak"
+            android:inputType="number"
+            android:paddingLeft="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        //Alamat
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Alamat"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:height="45dp"
+            android:background="@drawable/kotak"
+            android:paddingLeft="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        //jenis kelamin
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="1dp"
+            android:layout_marginLeft="10dp">
+
+            <RadioButton
+                android:id="@+id/laki"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/perempuan"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:text="Perempuan"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        //usia
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usia"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <SeekBar
+            android:id="@+id/usia"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:max="35"
+            android:min="17" />
+
+        //keterangan usia
+        <TextView
+            android:id="@+id/us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usia"
+            android:layout_marginLeft="150dp"
+            android:text="Tahun"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        //button daftar
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:onClick="daftar"
+            android:paddingTop="-30dp"
+            android:text="Daftar"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/reguler"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Data yang anda masukan valid "
+            android:layout_marginLeft="70dp"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
