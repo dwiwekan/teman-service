@@ -1,16 +1,16 @@
-package com.example.mod5.ui.gallery;
+package com.example.mod5.ui.dailycare;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class DailyCareViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public DailyCareViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is daily care fragment");
     }
 
     public LiveData<String> getText() {

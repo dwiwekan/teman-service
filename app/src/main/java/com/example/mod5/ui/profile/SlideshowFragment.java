@@ -1,4 +1,4 @@
-package com.example.mod5.ui.slideshow;
+package com.example.mod5.ui.profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.mod5.R;
 import com.example.mod5.databinding.FragmentSlideshowBinding;
 
 public class SlideshowFragment extends Fragment {

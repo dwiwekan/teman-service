@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mod5/app/src/main/res/drawable/ic_menu_home.xml" value="0.14635416666666667" />
+        <entry key="..\:/Mod5/app/src/main/res/drawable/ic_menu_person.xml" value="0.2703125" />
         <entry key="..\:/Mod5/app/src/main/res/layout/activity_dashboard.xml" value="0.17300724637681159" />
         <entry key="..\:/Mod5/app/src/main/res/layout/activity_main.xml" value="0.17300724637681159" />
         <entry key="..\:/Mod5/app/src/main/res/layout/activity_main_dashboard.xml" value="0.13020833333333334" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/activity_profile.xml" value="0.15307971014492755" />
         <entry key="..\:/Mod5/app/src/main/res/layout/activity_register.xml" value="0.17300724637681159" />
-        <entry key="..\:/Mod5/app/src/main/res/layout/app_bar_main_dashboard.xml" value="0.13020833333333334" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/app_bar_main_dashboard.xml" value="0.2" />
         <entry key="..\:/Mod5/app/src/main/res/layout/content_main_dashboard.xml" value="0.13020833333333334" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/fragment_daily_care.xml" value="0.15307971014492755" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/fragment_emergency.xml" value="0.2" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/fragment_gallery.xml" value="0.13020833333333334" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/fragment_home.xml" value="0.13020833333333334" />
+        <entry key="..\:/Mod5/app/src/main/res/layout/fragment_slideshow.xml" value="0.15307971014492755" />
         <entry key="..\:/Mod5/app/src/main/res/layout/nav_header_main_dashboard.xml" value="0.264" />
+        <entry key="..\:/Mod5/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Mod5/app/src/main/res/menu/main_dashboard.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

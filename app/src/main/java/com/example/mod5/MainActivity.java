@@ -14,8 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public static final String EXTRA_MESSAGE_NAME = "EXTRA_USER_NAME";
+
     public void kirim(View view) {
-        Intent i1 = new Intent(this, MainDashboard.class);
+        String name = "Komang";
+        Intent i1 = new Intent(getApplicationContext(), MainDashboard.class);
+        i1.putExtra("EXTRA_USER_NAME",name);
         startActivity(i1);
+
     }
 }
