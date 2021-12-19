@@ -20,6 +20,25 @@
         <entry key="..\:/Mod5/app/src/main/res/layout/nav_header_main_dashboard.xml" value="0.264" />
         <entry key="..\:/Mod5/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Mod5/app/src/main/res/menu/main_dashboard.xml" value="0.25416666666666665" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.2703125" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_dashboard.xml" value="0.1875" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_detail_layanan.xml" value="0.264" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_list_layanan.xml" value="0.1933876811594203" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_login.xml" value="0.24728260869565216" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_main.xml" value="0.19927536231884058" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_main_dashboard.xml" value="0.19927536231884058" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_register.xml" value="0.24728260869565216" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/activity_register2.xml" value="0.24010416666666667" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/app_bar_main_dashboard.xml" value="0.1875" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/content_main_dashboard.xml" value="0.1875" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/fragment_emergency.xml" value="0.264" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/layanan_item.xml" value="0.5083532219570406" />
+        <entry key="..\:/Panitia/Mod5/app/src/main/res/layout/nav_header_main_dashboard.xml" value="0.1875" />
+>>>>>>> 668014a (Ini wa kerjain)
       </map>
     </option>
   </component>
