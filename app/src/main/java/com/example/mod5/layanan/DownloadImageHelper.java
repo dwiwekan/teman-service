@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import java.io.InputStream;
 
 public class DownloadImageHelper extends AsyncTask<String, Void, Bitmap> {
-    public final static String imageUrl="http://192.168.43.5:8000/storage/";
+    public final static String imageUrl="http://172.16.54.19:8000/storage/";
     ImageView bmImage;
 
     public DownloadImageHelper(ImageView bmImage) {

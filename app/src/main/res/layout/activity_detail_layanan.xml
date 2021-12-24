@@ -30,8 +30,7 @@
         android:id="@+id/tvDeskripsi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum sir dolor amet belalang kupu kupu siang makan nasi kalo malam suka ngentu"
-        android:textColor="@color/black_text" />
+        android:text="Lorem ipsum sir dolor amet belalang kupu kupu siang makan nasi kalo malam suka ngentu"/>
 
     <LinearLayout
         android:layout_width="match_parent"

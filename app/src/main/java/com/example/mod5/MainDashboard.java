@@ -51,7 +51,7 @@ public class MainDashboard extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_emergency, R.id.nav_daily_care,R.id.nav_profile)
+                R.id.nav_emergency, R.id.nav_daily_care)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main_dashboard);
@@ -59,8 +59,8 @@ public class MainDashboard extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
-        TextView txtProfileName = (TextView) navigationView.getHeaderView(0).findViewById(R.id.nameProfile);
-        txtProfileName.setText(extras);
+//        TextView txtProfileName = (TextView) navigationView.getHeaderView(0).findViewById(R.id.nameProfile);
+//        txtProfileName.setText(extras);
 
 
     }
@@ -71,12 +71,6 @@ public class MainDashboard extends AppCompatActivity {
 
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main_dashboard, menu);
-        return true;
-    }
 
     @Override
     public boolean onSupportNavigateUp() {

@@ -38,21 +38,21 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register2);
         database = LayananDatabase.getDbInstance(this);
         daftar = findViewById(R.id.button1);
-        nama = findViewById(R.id.nama);
-        email = findViewById(R.id.email);
-        alamat = findViewById(R.id.alamat);
-        telp = findViewById(R.id.notelp);
+        nama = findViewById(R.id.editNama);
+        email = findViewById(R.id.editEmail);
+        alamat = findViewById(R.id.editAlamat);
+        telp = findViewById(R.id.editNotelp);
         password = findViewById(R.id.password);
-        jk = findViewById(R.id.rg);
-        us = findViewById(R.id.us);
+        jk = findViewById(R.id.jenisKelamin);
+        us = findViewById(R.id.umurText);
         cb = findViewById(R.id.reguler);
-        umur = findViewById(R.id.umur);
+        umur = findViewById(R.id.umurSb);
         back = findViewById(R.id.back);
         //biar umur di seekbar kelihatan
         umur.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                us.setText((i+17) +" Tahun");
+                us.setText(i +" Tahun");
             }
 
             @Override
@@ -94,7 +94,7 @@ public class RegisterActivity extends AppCompatActivity {
                         Toast.LENGTH_LONG).show();
                 User registeredUser=database.UserDao().getUserbyid((int)id[0]);
                 String jsonModel=gson.toJson(registeredUser);
-
+                sp= this.getSharedPreferences("pref",0);
                 SharedPreferences.Editor prefsEditor = sp.edit();
                 prefsEditor.putString("loggedUser", jsonModel);
                 prefsEditor.commit();

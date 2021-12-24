@@ -40,7 +40,10 @@ public class ListLayananActivity extends AppCompatActivity {
         recyclerLayanan = findViewById(R.id.layananRecycler);
         title=findViewById(R.id.judul);
 
-        Retrofit retrofit= new Retrofit.Builder().baseUrl(APIDialog.baseUrl).addConverterFactory(GsonConverterFactory.create()).build();
+        Retrofit retrofit= new Retrofit.Builder()
+                .baseUrl(APIDialog.baseUrl)
+                .addConverterFactory(GsonConverterFactory.create()).build();
+
         apiDialog=retrofit.create(APIDialog.class);
 
         int kodeLayanan=getIntent().getIntExtra("kode_layanan",0);
@@ -59,7 +62,7 @@ public class ListLayananActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Layanan>> call, Response<List<Layanan>> response) {
                 if(!response.isSuccessful()){
-                    Log.d("dewa27",String.valueOf(response.code()));
+                    Log.d("nara",String.valueOf(response.code()));
                     Toast.makeText(getApplicationContext(), "Code : " + Integer.toString(response.code()), Toast.LENGTH_LONG).show();
                     return;
                 }

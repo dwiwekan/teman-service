@@ -10,22 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
-        android:theme="@style/Theme.Mod5" >
-=======
         android:theme="@style/Theme.Mod5"
         android:usesCleartextTraffic="true">
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity2"
-            android:exported="false" />
-        <activity
             android:name=".DetailLayananActivity"
             android:exported="false" />
         <activity android:name=".ListLayananActivity" />
->>>>>>> 668014a (Ini wa kerjain)
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
@@ -34,13 +27,9 @@
             android:exported="false"
             android:label="@string/title_activity_main_dashboard"
             android:theme="@style/Theme.Mod5.NoActionBar" />
-        <activity android:name=".Register" />
         <activity android:name=".Dashboard" />
-<<<<<<< HEAD
-        <activity android:name=".MainActivity" >
-=======
+        <activity android:name=".MainActivity"/>
         <activity android:name=".LoginActivity">
->>>>>>> 668014a (Ini wa kerjain)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,5 +37,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

@@ -39,7 +39,7 @@
                 android:layout_marginTop="40dp"
                 android:hint="Nama">
                 <EditText
-                    android:id="@+id/nama"
+                    android:id="@+id/editNama"
                     android:layout_width="match_parent"
                     android:layout_marginLeft="10dp"
                     android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                 android:layout_marginBottom="10dp"
                 android:hint="Email">
                 <EditText
-                    android:id="@+id/email"
+                    android:id="@+id/editEmail"
                     android:layout_width="match_parent"
                     android:layout_height="44dp"
                     android:layout_marginLeft="10dp"
@@ -70,7 +70,7 @@
                 android:layout_marginBottom="10dp"
                 android:hint="No Telp">
                 <EditText
-                    android:id="@+id/notelp"
+                    android:id="@+id/editNotelp"
                     android:layout_width="match_parent"
                     android:layout_height="44dp"
                     android:layout_marginLeft="10dp"
@@ -86,7 +86,7 @@
                 android:layout_marginBottom="10dp"
                 android:hint="Alamat">
                 <EditText
-                    android:id="@+id/alamat"
+                    android:id="@+id/editAlamat"
                     android:layout_width="match_parent"
                     android:layout_height="44dp"
                     android:layout_marginLeft="10dp"
@@ -118,7 +118,7 @@
                 android:textStyle="bold"
                 android:layout_marginLeft="15dp"/>
             <RadioGroup
-                android:id="@+id/rg"
+                android:id="@+id/jenisKelamin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -130,24 +130,22 @@
                     android:layout_width="132dp"
                     android:layout_height="wrap_content"
                     android:text="Laki-laki"
-                    android:textColor="#000000"
                     android:checked="true"/>
                 <RadioButton
                     android:id="@+id/perempuan"
                     android:layout_width="159dp"
                     android:layout_height="wrap_content"
-                    android:text="Perempuan"
-                    android:textColor="#000000" />
+                    android:text="Perempuan" />
             </RadioGroup>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Usia"
-                android:textColor="@color/black"
+
                 android:textStyle="bold"
                 android:layout_marginLeft="15dp"/>
             <SeekBar
-                android:id="@+id/umur"
+                android:id="@+id/umurSb"
                 android:layout_width="346dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
@@ -155,13 +153,13 @@
                 android:max="35"
                 android:min="17" />
             <TextView
-                android:id="@+id/us"
+                android:id="@+id/umurText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/usia"
+                android:layout_below="@+id/usiaSb"
                 android:layout_marginLeft="150dp"
                 android:text="17 Tahun"
-                android:textColor="@color/black"
+
                 android:textSize="15dp" />
             <Button
                 android:id="@+id/button1"
@@ -178,8 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Data yang anda masukan valid "
-                android:layout_gravity="center"
-                android:textColor="#000000" />
+                android:layout_gravity="center" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

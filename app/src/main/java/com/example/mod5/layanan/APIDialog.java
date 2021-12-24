@@ -8,7 +8,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public interface APIDialog {
-    public static String baseUrl="http://192.168.43.5:8000/api/";
+    public static String baseUrl="http://172.16.54.19:8000/api/";
     @GET("layanan")
     Call<List<Layanan>> getLayanan();
 

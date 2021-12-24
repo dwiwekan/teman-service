@@ -44,7 +44,7 @@
         <!--            android:textStyle="bold" />-->
 
         <EditText
-            android:id="@+id/nama"
+            android:id="@+id/editNama"
             android:layout_width="320dp"
             android:layout_height="51dp"
             android:layout_marginLeft="30dp"

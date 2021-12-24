@@ -123,22 +123,18 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="30dp">
+                            android:layout_marginStart="10dp">
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content">
 
                                 <Button
-<<<<<<< HEAD
-                                    android:id="@+id/buttonLogout"
-=======
                                     android:id="@+id/buttonEditProfile"
->>>>>>> 668014a (Ini wa kerjain)
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentRight="false"
-                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginLeft="0dp"
                                     android:width="30dp"
                                     android:height="25dp"
                                     android:backgroundTint="@color/purple_200"
@@ -147,11 +143,7 @@
                                     android:textSize="10sp" />
 
                                 <Button
-<<<<<<< HEAD
-                                    android:id="@+id/buttonEdit"
-=======
                                     android:id="@+id/buttonLogout"
->>>>>>> 668014a (Ini wa kerjain)
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentRight="true"
@@ -187,32 +179,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
+                    android:orientation="horizontal">
 
-<<<<<<< HEAD
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/rumah_sakit"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/ic_menu_phone"
-                        android:backgroundTint="@color/purple_500"
-                        app:cardCornerRadius="6dp" />
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/pemadam"
-                        android:layout_width="125dp"
-                        android:layout_height="125dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/ic_menu_phone"
-                        android:backgroundTint="@color/purple_500"
-                        app:cardCornerRadius="6dp" />
-=======
                     <LinearLayout
                         android:layout_width="100dp"
                         android:layout_height="125dp"
@@ -220,14 +188,14 @@
                         android:orientation="vertical">
 
                         <Button
-                            android:id="@+id/rumah_sakit"
+                            android:id="@+id/polisi"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:layout_weight="1"
+                            android:layout_marginLeft="15dp"
                             android:layout_marginRight="20dp"
-                            android:background="@drawable/ic_menu_phone"
-                            android:backgroundTint="@color/purple_500"
+                            android:background="@drawable/ic_baseline_local_police_24"
                             app:cardCornerRadius="6dp" />
 
                         <TextView
@@ -251,7 +219,7 @@
                             android:gravity="center"
                             android:layout_weight="1"
                             android:layout_marginRight="20dp"
-                            android:background="@drawable/ic_menu_phone"
+                            android:background="@drawable/ic_baseline_local_fire_department_24"
                             android:backgroundTint="@color/purple_500"
                             app:cardCornerRadius="6dp" />
 
@@ -261,67 +229,7 @@
                             android:text="Pemadam"
                             android:textAlignment="center"/>
                     </LinearLayout>
->>>>>>> 668014a (Ini wa kerjain)
 
-
-                </LinearLayout>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
-
-<<<<<<< HEAD
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/kantor_polisi"
-                        android:layout_width="125dp"
-=======
-                    <Button
-                        android:id="@+id/kantor_polisi"
-                        android:layout_width="75dp"
->>>>>>> 668014a (Ini wa kerjain)
-                        android:layout_height="125dp"
-                        android:layout_gravity="center"
-                        android:layout_weight="1"
-                        android:layout_marginRight="20dp"
-<<<<<<< HEAD
-                        android:background="@drawable/ic_menu_phone"
-                        android:backgroundTint="@color/purple_500"
-                        app:cardCornerRadius="6dp" />
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/bengkel"
-                        android:layout_width="125dp"
-=======
-                        android:background="@drawable/ic_menu_person"
-                        android:backgroundTint="@color/purple_500"
-                        app:cardCornerRadius="6dp" />
-
-                    <Button
-                        android:id="@+id/bengkel"
-                        android:layout_width="75dp"
->>>>>>> 668014a (Ini wa kerjain)
-                        android:layout_height="125dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-<<<<<<< HEAD
-                        android:background="@drawable/ic_menu_phone"
-=======
-                        android:background="@drawable/ic_menu_home"
->>>>>>> 668014a (Ini wa kerjain)
-                        android:backgroundTint="@color/purple_500"
-                        app:cardCornerRadius="6dp" />
 
 
                 </LinearLayout>
@@ -341,50 +249,105 @@
                     android:orientation="horizontal"
                     android:weightSum="2">
 
-<<<<<<< HEAD
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/spbu"
-                        android:layout_width="125dp"
-=======
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="125dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/rumahsakit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/ic_menu_emergency"
+                            android:backgroundTint="@color/purple_500"
+                            app:cardCornerRadius="6dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rumah Sakit"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="125dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/bengkel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/ic_baseline_two_wheeler_24"
+                            android:backgroundTint="@color/purple_500"
+                            app:cardCornerRadius="6dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bengkel"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
                     <Button
                         android:id="@+id/spbu"
                         android:layout_width="75dp"
->>>>>>> 668014a (Ini wa kerjain)
+
                         android:layout_height="125dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:layout_marginRight="20dp"
-<<<<<<< HEAD
+
                         android:background="@drawable/ic_menu_phone"
                         android:backgroundTint="@color/purple_500"
                         app:cardCornerRadius="6dp" />
 
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/atm"
-                        android:layout_width="125dp"
-=======
-                        android:background="@drawable/ic_menu_emergency"
-                        android:backgroundTint="@color/purple_500"
-                        app:cardCornerRadius="6dp" />
 
                     <Button
                         android:id="@+id/atm"
                         android:layout_width="75dp"
->>>>>>> 668014a (Ini wa kerjain)
+
                         android:layout_height="125dp"
                         android:layout_gravity="center"
                         android:layout_marginLeft="20dp"
                         android:layout_weight="1"
-<<<<<<< HEAD
+
                         android:background="@drawable/ic_menu_phone"
                         android:backgroundTint="@color/purple_500"
                         app:cardCornerRadius="6dp" />
-=======
+
                         android:background="@drawable/ic_menu_slideshow"
                         android:backgroundTint="@color/purple_500"
                         app:cardCornerRadius="6dp"
                         />
->>>>>>> 668014a (Ini wa kerjain)
+
 
 
                 </LinearLayout>
